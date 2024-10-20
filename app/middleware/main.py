@@ -9,7 +9,7 @@ class CustomMiddleware:
     def __call__(self,request):
         print("Token",request.META.get('HTTP_AUTHORIZATION'))
         token = request.META.get('HTTP_AUTHORIZATION')
-        if(token):
+        if(token and len(token.split(" ")) > 1):
             response = self.get_response(request)  
             return response
         else:

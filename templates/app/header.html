@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+{% load static %}
+<html>
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" href="{% static '/assets/css/style.css' %}" />
+	<link rel="stylesheet" href="{% static '/assets/css/framework.css' %}" />
+	<link rel="stylesheet" href="{% static '/assets/css/navbar.css' %}" />
+	<link rel="stylesheet" href="{% static '/assets/css/style2.css' %}" />
+	<link rel="stylesheet" href="{% static '/assets/fonts/bootstrap-icons/font-css.css' %}" />
+
+	<link rel="stylesheet" href="{% static '/assets/fonts/font-awesome/css/all.min.css' %}" />
+	<script src="https://cdn.tailwindcss.com"></script>
+	<script>
+		tailwind.config = {
+			theme: {
+				extend: {
+					colors: {
+						clifford: "#da373d",
+					},
+				},
+			},
+		};
+	</script>
+</head>

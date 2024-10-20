@@ -67,6 +67,13 @@ ROOT_URLCONF = "trackitadmin.urls"
 
 TEMPLATES_DIR = os.path.join(BASE_DIR,'templates')
 
+# Add these new lines
+STATICFILES_DIRS = (
+    os.path.join(BASE_DIR, 'static'),
+)
+
+
+
 TEMPLATES = [
     {
         "BACKEND": "django.template.backends.django.DjangoTemplates",

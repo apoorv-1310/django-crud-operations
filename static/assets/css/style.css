@@ -97,7 +97,7 @@ h1,h2,h3,h4,h5,h6 {
     font-family: var(--heading-text);
     font-style: normal;
 }
-.h3,h3,.h4,h4,.h5,h5,.h6,h6 {color:var(--heading-color);}
+.h3,h3,.h4,h4,.h5,h5,.h6,h6 {color:#fff;}
 .h1,h1 {font-size: 110px; line-height: 120px; /*done*/}
 .h2,h2{ font-size: 96px; line-height: 120px;}
 .h3,h3{ font-size: 70px; line-height: 82px;}

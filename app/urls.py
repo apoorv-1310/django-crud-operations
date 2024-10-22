@@ -10,5 +10,7 @@ urlpatterns=[
     path("api/",APIController.read),
     path("api/update/<int:id>",APIController.update),
     path("api/delete/<int:id>",APIController.delete),
-    path("views/",PagesController.index)
+    path("views/",PagesController.index),
+    path("views/contact",PagesController.contact)
+
 ]
